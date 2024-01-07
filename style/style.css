@@ -217,7 +217,7 @@ p {
 .comming-offer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+
 }
 
 .comming-offer .coming-detail1 h4 {
@@ -279,3 +279,21 @@ p {
 }
 
 /* comming offer sections end */
+
+
+/* holiday section start */
+.holiday-detail {
+    text-align: center;
+}
+
+.holiday-detail .holiday-title{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+/* holiday section end */
