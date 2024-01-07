@@ -3,7 +3,10 @@ body,
     margin: 0;
     padding: 0;
 }
-
+main{
+    margin-left: 140px;
+    margin-right: 140px;
+}
 /* header section start */
 .header {
     background: url('../images/Banner\ Image.png');
@@ -53,7 +56,7 @@ body,
 /* header section end */
 
 /* offer-section start */
-.section-gap{
+.section-gap {
     margin-top: 100px;
 }
 
@@ -61,7 +64,7 @@ body,
     text-align: center;
 }
 
-.section-gap .offer-detail p{
+.section-gap .offer-detail p {
     color: #F00;
     font-size: 80px;
     font-style: normal;
@@ -72,7 +75,7 @@ body,
 }
 
 
-.section-gap .offer-detail span{
+.section-gap .offer-detail span {
     color: #F00;
     font-size: 24px;
     font-style: normal;
@@ -81,7 +84,7 @@ body,
     font-family: 'Inter', sans-serif;
 }
 
-.section-gap .offer-detail h3{
+.section-gap .offer-detail h3 {
     color: #070211;
     font-size: 48px;
     font-style: normal;
@@ -90,4 +93,97 @@ body,
     padding: 20px 48px;
     font-family: 'Inter', sans-serif;
 }
+
 /* offer-section end */
+
+
+/* party section start */
+.party {
+    background: url('../images/Vectorrr.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.party .party-title {
+    color: #FFFFFF;
+    padding-left: 140px;
+}
+
+.party .party-title h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    font-family: 'Merriweather', serif;
+}
+
+.party .party-title p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+
+.party .party-title .join-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+/* party section end */
+
+
+/* party information section start */
+.party-information .party-detail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.party-info{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    padding: 100px 255px 126px 255px;
+}
+
+
+.party-information .party-detail span,
+p {
+    padding-bottom: 10px;
+}
+
+.party-information .party-detail p {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.party-information .party-detail span {
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+/* party information section end */
