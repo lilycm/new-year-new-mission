@@ -7,7 +7,7 @@ body,
 /* header section start */
 .header {
     background: url('../images/Banner\ Image.png');
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
@@ -19,17 +19,19 @@ body,
     justify-content: center;
 }
 
-.header .header-title{
+.header .header-title {
     background: linear-gradient(180deg, #070211bb 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
     position: absolute;
     width: 100%;
-    height: 73vh;
+    height: 72vh;
 }
-.header .header-title{
+
+.header .header-title {
     color: #FFF;
 }
-.header .header-title p{
+
+.header .header-title p {
     padding-top: 120px;
     font-size: 32px;
     font-family: 'Merriweather', serif;
@@ -39,7 +41,7 @@ body,
     letter-spacing: 1.2px;
 }
 
-.header .header-title h1{
+.header .header-title h1 {
     padding-top: 16px;
     font-size: 72px;
     font-family: 'Merriweather', serif;
@@ -49,3 +51,43 @@ body,
 }
 
 /* header section end */
+
+/* offer-section start */
+.section-gap{
+    margin-top: 100px;
+}
+
+.section-gap .offer-detail {
+    text-align: center;
+}
+
+.section-gap .offer-detail p{
+    color: #F00;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.section-gap .offer-detail span{
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-gap .offer-detail h3{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 48px;
+    font-family: 'Inter', sans-serif;
+}
+/* offer-section end */
