@@ -284,9 +284,10 @@ p {
 /* holiday section start */
 .holiday-detail {
     text-align: center;
+    margin-bottom: 60px;
 }
 
-.holiday-detail .holiday-title{
+.holiday-detail .holiday-title {
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -296,4 +297,46 @@ p {
     padding-bottom: 16px;
 }
 
+.holiday-detail .holiday {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-detail .sale {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-detail p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 28px;
+}
+
+.holiday-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-images{
+    background: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
 /* holiday section end */
