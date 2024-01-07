@@ -150,9 +150,10 @@ main {
 
 
 /* party information section start */
-.party-information{
+.party-information {
     text-align: center;
 }
+
 .party-information .party-detail {
     display: flex;
     gap: 10px;
@@ -213,10 +214,68 @@ p {
 
 
 /* comming offer sections start */
-.comming-offer{
+.comming-offer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 50px;
+    
 }
+
+.comming-offer .coming-detail1 h4 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.comming-offer .coming-detail1 h2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.comming-offer .coming-detail1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.comming-offer .coming-detail-img img {
+    border-radius: 50%;
+    border: 15px solid #F00;
+    background: white;
+    padding: 20px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.comming-offer .coming-detail2 h2 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.comming-offer .coming-detail2 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
 /* comming offer sections end */
