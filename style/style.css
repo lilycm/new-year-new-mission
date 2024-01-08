@@ -11,38 +11,28 @@ main {
 
 /* header section start */
 .header {
-    background: url('../images/Banner\ Image.png');
-    background-position: center;
+    background-image: linear-gradient(180deg, #070211bb 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
+    background-position: 60%;
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100vh;
-    position: relative;
-    margin: 0px 140px;
+    background-size: cover;
+    height: 600px;
+    margin: 30px 140px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 16px;
 }
 
-.header .header-title {
-    background: linear-gradient(180deg, #070211bb 0%, rgba(7, 2, 17, 0.00) 100%);
-    border-radius: 16px;
-    position: absolute;
-    width: 100%;
-    height: 72vh;
-}
 
 .header .header-title {
     color: #FFF;
 }
 
 .header .header-title p {
-    padding-top: 120px;
     font-size: 32px;
     font-family: 'Merriweather', serif;
     font-weight: 900;
-    line-height: 95px;
-    line-height: normal;
     letter-spacing: 1.2px;
 }
 
@@ -101,21 +91,28 @@ main {
 
 /* party section start */
 .party {
-    background: url('../images/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
+    height: 600px;
     display: flex;
     align-items: center;
 }
 
-.party .party-title {
-    color: #FFFFFF;
-    padding-left: 140px;
+.party .first-party{
+    display: flex;
+    align-items: center;
 }
 
-.party .party-title h2 {
+.party .first-party .party-title {
+    color: #FFFFFF;
+    padding: 120px 20px 140px 100px;
+    
+}
+
+.party .first-party .party-title h2 {
     color: #FFF;
     font-size: 64px;
     font-style: normal;
@@ -124,7 +121,7 @@ main {
     font-family: 'Merriweather', serif;
 }
 
-.party .party-title p {
+.party .first-party .party-title p {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -136,7 +133,7 @@ main {
 }
 
 
-.party .party-title .join-btn {
+.party .first-party .party-title .join-btn {
     background: none;
     border: none;
     font-size: 20px;
