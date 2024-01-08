@@ -102,7 +102,7 @@ main {
     border-radius: 16px;
 }
 
-.party .first-party{
+.party .first-party {
     display: flex;
     align-items: center;
 }
@@ -110,7 +110,7 @@ main {
 .party .first-party .party-title {
     color: #FFFFFF;
     padding: 120px 20px 140px 100px;
-    
+
 }
 
 .party .first-party .party-title h2 {
@@ -325,22 +325,34 @@ p {
     padding-top: 28px;
 }
 
-.holiday-images .holiday-img{
+.holiday-images {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.holiday-images .holiday-img .holiday-img2 img{
-    width: 100%;
-}
-
-.holiday-images .holiday-img img{
     mix-blend-mode: darken;
 }
 
-.holiday-images .holiday-img1 img{
+.holiday-images .holiday-img1 img {
     width: 100%;
 }
+
+.holiday-images .holiday-img2 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 194px;
+}
+.holiday-images .holiday-img2 .img1{
+    position: relative;
+}
+
+.holiday-images .holiday-img2 .img1 img{
+    position: absolute;
+    top: -130px;
+    left: -140px;
+}
+
 /* holiday section end */
 
 
@@ -511,7 +523,7 @@ footer {
     font-weight: 500;
 }
 
-.copywirte button{
+.copywirte button {
     background: none;
     border: none;
     color: #FFF;
@@ -519,4 +531,5 @@ footer {
     font-size: 24px;
     font-weight: 500;
 }
+
 /* footer section end */
