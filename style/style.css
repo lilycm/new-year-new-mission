@@ -325,11 +325,21 @@ p {
     padding-top: 28px;
 }
 
-
-
+.holiday-images .holiday-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holiday-images .holiday-img .holiday-img2 img{
+    width: 100%;
+}
 
 .holiday-images .holiday-img img{
     mix-blend-mode: darken;
+}
+
+.holiday-images .holiday-img1 img{
+    width: 100%;
 }
 /* holiday section end */
 
