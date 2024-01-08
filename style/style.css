@@ -325,17 +325,9 @@ p {
     padding-top: 28px;
 }
 
-.holiday-images{
-    background-image: url('../images/Rectangle\ 2.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    border-radius: 16px 0px 16px 16px;
-    display: flex;
-    background-size: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
 .holiday-images .holiday-img img{
     mix-blend-mode: darken;
 }
