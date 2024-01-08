@@ -5,18 +5,18 @@ body,
 }
 
 main {
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 
 /* header section start */
 .header {
     background-image: linear-gradient(180deg, #070211bb 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
-    background-position: 60%;
+    background-position: 65%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    margin: 30px 140px;
+    margin: 30px 110px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -334,14 +334,14 @@ p {
     mix-blend-mode: darken;
 }
 
-.holiday-images .holiday-img1 img {
+.holiday-images .holiday-img1 img{
     width: 100%;
 }
 
-.holiday-images .holiday-img2 {
+.holiday-images .holiday-img2{
     display: flex;
     align-items: center;
-    padding-bottom: 180px;
+    padding-bottom: 170px;
 }
 .holiday-images .holiday-img2 .img1{
     position: relative;
