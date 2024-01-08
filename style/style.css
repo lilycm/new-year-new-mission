@@ -10,12 +10,12 @@ main {
 }
 
 /* header section start */
-.header {
+.header{
     background-image: linear-gradient(180deg, #070211bb 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
-    background-position: 65%;
+    background-position: 60%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 550px;
     margin: 30px 110px;
     text-align: center;
     display: flex;
@@ -141,8 +141,18 @@ main {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
-    padding-left: 20px;
+    padding: 15px 25px;
+    transition: .7s ease;
 }
+
+.party .first-party .party-title .join-btn:hover{
+    background: #F00;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
 
 /* party section end */
 
@@ -191,21 +201,26 @@ p {
     text-transform: capitalize;
 }
 
-.party-information .join-party {
+.party-information .join-party{
     margin-top: 40px;
     color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
     border-radius: 8px;
     background: #F00;
     border: none;
     padding: 16px 32px;
-    text-align: center;
+    border: 2px solid #F00;
+    transition: .7s ease-in-out;
+}
+
+.party-information .join-party:hover{
+    background: none;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
 }
 
 /* party information section end */
@@ -215,6 +230,7 @@ p {
 .comming-offer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
 
 }
 
@@ -254,7 +270,7 @@ p {
     background: white;
     padding: 20px;
     width: 250px;
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 .comming-offer .coming-detail2 h2 {
