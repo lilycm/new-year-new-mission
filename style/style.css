@@ -357,7 +357,7 @@ p {
 .holiday-images .holiday-img2{
     display: flex;
     align-items: center;
-    padding-bottom: 170px;
+    padding-bottom: 185px;
 }
 .holiday-images .holiday-img2 .img1{
     position: relative;
@@ -452,20 +452,22 @@ p {
     line-height: 32px;
 }
 
-.newletter .newletter-detail .subscribe {
+.newletter .newletter-detail .subscribe{
     padding-top: 48px;
 }
 
 
-.newletter .newletter-detail .subscribe .email {
-    padding: 25px 60px 25px 30px;
+.newletter .newletter-detail .subscribe .email{
+    padding: 25px 80px 25px 30px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: none;
-    margin-right: 0;
+    margin-right: -10px;
 }
-
-.newletter .newletter-detail .subscribe .subscribe {
+.newletter .newletter-detail .subscribe .email:hover{
+    border: none;
+}
+.newletter .newletter-detail .subscribe .subscribe-btn{
     padding: 25px 56px 25px 56px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -474,8 +476,13 @@ p {
     font-weight: bold;
     letter-spacing: 1px;
     margin-left: 0;
+    font-size: 15px;
 }
 
+.newletter .newletter-detail .subscribe .subscribe-btn:hover{
+    color: #070211;
+    cursor: pointer;
+}
 /* newsletter section end */
 
 
